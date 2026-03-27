@@ -10,6 +10,7 @@ const baseUrl = "https://github.com/franciscoBSalgueiro/en-croissant/releases/do
 const linuxFormats = [
   { name: "AppImage", url: `${baseUrl}/v${version}/en-croissant_${version}_amd64.AppImage` },
   { name: ".deb", url: `${baseUrl}/v${version}/en-croissant_${version}_amd64.deb` },
+  { name: ".rpm", url: `${baseUrl}/v${version}/en-croissant-${version}-1.x86_64.rpm` },
 ];
 
 const links = ref([

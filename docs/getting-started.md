@@ -19,12 +19,16 @@ En Croissant is available for Windows, Linux, and macOS.
 ### Linux
 
 1. Go to the [Download](/download) page.
-2. Download the `.AppImage` or `.deb` file depending on your distribution.
+2. Download the `.AppImage`, `.deb`, or `.rpm` file depending on your distribution.
 3. For AppImage:
    - Make the file executable: `chmod +x en-croissant_{{    version }}_amd64.AppImage`
    - Run it: `./en-croissant_{{ version }}_amd64.AppImage`
 4. For `.deb`:
    - Install using `dpkg` or your package manager: `sudo dpkg -i en-croissant_{{ version }}_amd64.deb`
+5. For `.rpm`:
+   - Install using your package manager: `sudo dnf install ./en-croissant-{{ version }}-1.x86_64.rpm`
+6. For Raspberry Pi:
+   - En Croissant is also available through [Pi-Apps](https://pi-apps.io/).
 
 ### macOS
 
