@@ -22,6 +22,10 @@ import DownloadLinks from './components/DownloadLinks.vue'
 <DownloadLinks />
 
 <div class="source-link">
+  Also available from <a href="https://pi-apps.io/" target="_blank" rel="noreferrer">Pi-Apps</a>.
+</div>
+
+<div class="source-link">
   Want to build from source? Check out the <a href="https://github.com/franciscoBSalgueiro/en-croissant" target="_blank" rel="noreferrer">GitHub repository</a>.
 </div>
 
